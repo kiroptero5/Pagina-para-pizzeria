@@ -1,0 +1,94 @@
+body{
+    color: rgb(96, 240, 240);
+}
+
+ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+background-color: lightcoral;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+img {
+    position: absolute;
+    left: 90px;
+    top: -500px;
+    z-index: -1;
+}
+
+
+div.pizzaalimentos img {
+   
+    border:5px solid #62a6f5;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    z-index: -1;
+    width: 25%;
+    height: auto;
+  }
+
+  div.PizzaHawallana img {
+    border: 5px solid #62a6f5;
+    position: absolute;
+    left: 400px;
+    top: 40px;
+    z-index: -1;
+    width: 25%;
+    height: auto;
+  }
+
+  div.PizzaItaliana img{
+      border: 5px solid #62a6f5;
+      position: absolute;
+      left: 800px;
+      top: 40px;
+      z-index: -1;
+      width: 25%;
+      height: auto;
+  }
+  div.Cocacola2l img{
+    
+      border: 5px solid #62a6f5;
+      position: absolute;
+      left: 50px;
+      top: 300px;
+      z-index: -1;
+      width: 10%;
+      height:auto;
+  }
+  div.desc {
+    position: absolute;
+    left: 30px;
+    top: 250px;
+    z-index: -1;
+    
+    text-align: center;
+  }
+
+ul li a .alimentos {
+    position: absolute;
+    top:8px;
+    left:150px;
+    font-size: 18px;
+}
+/*
+li{
+    display: inline;
+}
+/*
+a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
